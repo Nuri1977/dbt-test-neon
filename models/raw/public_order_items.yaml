@@ -1,0 +1,14 @@
+---
+version: 2
+sources:
+- name: public
+  description: postgres
+  tables:
+  - name: order_items
+    columns:
+    - name: order_id
+      data_tests: []
+    - name: product_id
+      data_tests: []
+    - name: quantity
+      data_tests: []

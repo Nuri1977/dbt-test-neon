@@ -1,0 +1,332 @@
+[0m12:48:38.237744 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1089a8760>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1097f3fa0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1097f32b0>]}
+
+
+============================== 12:48:38.276705 | 0e62cba1-c30a-45b6-b495-52ccfed1c2cf ==============================
+[0m12:48:38.276705 [info ] [MainThread]: Running with dbt=1.9.0
+[0m12:48:38.278696 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/nuri/Documents/Projects/Adaptivescale/dbt-studio-old-01/assets/dbt_sample', 'version_check': 'True', 'debug': 'False', 'log_path': '/Users/nuri/Documents/Projects/Adaptivescale/dbt-studio-old-01/assets/dbt_sample/logs', 'warn_error': 'None', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt ', 'log_format': 'default', 'introspect': 'True', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m12:48:43.427212 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '0e62cba1-c30a-45b6-b495-52ccfed1c2cf', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1097a8cd0>]}
+[0m12:48:43.577711 [info ] [MainThread]: Warning: No packages were found in packages.yml
+[0m12:48:43.579907 [info ] [MainThread]: Warning: No packages were found in packages.yml
+[0m12:48:43.624311 [debug] [MainThread]: Resource report: {"command_name": "deps", "command_success": true, "command_wall_clock_time": 5.9542994, "process_in_blocks": "0", "process_kernel_time": 0.589329, "process_mem_max_rss": "91242496", "process_out_blocks": "0", "process_user_time": 2.905645}
+[0m12:48:43.625271 [debug] [MainThread]: Command `cli deps` succeeded at 12:48:43.625075 after 5.96 seconds
+[0m12:48:43.625968 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1089a8760>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1099297f0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1097a8cd0>]}
+[0m12:48:43.626708 [debug] [MainThread]: Flushing usage events
+[0m12:48:44.327794 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m12:23:34.456565 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x103ccb7c0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104b1afa0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104b1a340>]}
+
+
+============================== 12:23:34.463884 | 3544aa59-6dad-44b1-8cf7-0504f9a97358 ==============================
+[0m12:23:34.463884 [info ] [MainThread]: Running with dbt=1.9.0
+[0m12:23:34.465735 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/nuri/Documents/Projects/Adaptivescale/conbined-dbt-project_01/dbt-studio-old-01/assets/dbt_sample', 'debug': 'False', 'warn_error': 'None', 'log_path': '/Users/nuri/Documents/Projects/Adaptivescale/conbined-dbt-project_01/dbt-studio-old-01/assets/dbt_sample/logs', 'version_check': 'True', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'log_format': 'default', 'static_parser': 'True', 'invocation_command': 'dbt ', 'introspect': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m12:23:34.854397 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '3544aa59-6dad-44b1-8cf7-0504f9a97358', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104ac63a0>]}
+[0m12:23:34.876370 [info ] [MainThread]: Warning: No packages were found in packages.yml
+[0m12:23:34.878171 [info ] [MainThread]: Warning: No packages were found in packages.yml
+[0m12:23:34.882325 [debug] [MainThread]: Resource report: {"command_name": "deps", "command_success": true, "command_wall_clock_time": 0.5342083, "process_in_blocks": "0", "process_kernel_time": 0.296513, "process_mem_max_rss": "91213824", "process_out_blocks": "0", "process_user_time": 2.505782}
+[0m12:23:34.883223 [debug] [MainThread]: Command `cli deps` succeeded at 12:23:34.883048 after 0.54 seconds
+[0m12:23:34.883903 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x103ccb7c0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104c51880>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104ac63a0>]}
+[0m12:23:34.884611 [debug] [MainThread]: Flushing usage events
+[0m12:23:35.478565 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m16:46:14.926734 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x110067850>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1110a9900>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1110a9ff0>]}
+
+
+============================== 16:46:14.933241 | 8cb75896-aa8c-43dd-b6e1-ac5e39c38b3c ==============================
+[0m16:46:14.933241 [info ] [MainThread]: Running with dbt=1.11.6
+[0m16:46:14.934459 [debug] [MainThread]: running dbt with arguments {'debug': 'False', 'empty': 'False', 'fail_fast': 'False', 'use_experimental_parser': 'False', 'log_format': 'default', 'use_colors': 'True', 'partial_parse': 'True', 'log_cache_events': 'False', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'indirect_selection': 'eager', 'write_json': 'True', 'send_anonymous_usage_stats': 'True', 'profiles_dir': '/Users/nuri/rosetta-dbt-studio-projects/neon_test', 'target_path': 'None', 'cache_selected_only': 'False', 'invocation_command': 'dbt run', 'quiet': 'False', 'static_parser': 'True', 'warn_error': 'None', 'version_check': 'True', 'printer_width': '80', 'log_path': '/Users/nuri/rosetta-dbt-studio-projects/neon_test/logs', 'no_print': 'None', 'introspect': 'True'}
+[0m16:46:15.864984 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '8cb75896-aa8c-43dd-b6e1-ac5e39c38b3c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x111001c30>]}
+[0m16:46:15.956393 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '8cb75896-aa8c-43dd-b6e1-ac5e39c38b3c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x110953190>]}
+[0m16:46:15.958094 [info ] [MainThread]: Registered adapter: postgres=1.10.0
+[0m16:46:16.144738 [debug] [MainThread]: checksum: ec27062d18352e9cfca161c166fcc73d2201661a23a3cf3c89196a27f32cfcb8, vars: {}, profile: , target: , version: 1.11.6
+[0m16:46:16.146157 [info ] [MainThread]: Unable to do partial parsing because saved manifest not found. Starting full parse.
+[0m16:46:16.146887 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '8cb75896-aa8c-43dd-b6e1-ac5e39c38b3c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1116b3880>]}
+[0m16:46:17.702634 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '8cb75896-aa8c-43dd-b6e1-ac5e39c38b3c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1123541f0>]}
+[0m16:46:17.817356 [debug] [MainThread]: Wrote artifact WritableManifest to /Users/nuri/rosetta-dbt-studio-projects/neon_test/target/manifest.json
+[0m16:46:17.819974 [debug] [MainThread]: Wrote artifact SemanticManifest to /Users/nuri/rosetta-dbt-studio-projects/neon_test/target/semantic_manifest.json
+[0m16:46:17.851726 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '8cb75896-aa8c-43dd-b6e1-ac5e39c38b3c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x112339b70>]}
+[0m16:46:17.852494 [info ] [MainThread]: Found 4 models, 4 sources, 464 macros
+[0m16:46:17.853082 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '8cb75896-aa8c-43dd-b6e1-ac5e39c38b3c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1122aea70>]}
+[0m16:46:17.855420 [info ] [MainThread]: 
+[0m16:46:17.856032 [info ] [MainThread]: Concurrency: 4 threads (target='dev')
+[0m16:46:17.856673 [info ] [MainThread]: 
+[0m16:46:17.857568 [debug] [MainThread]: Acquiring new postgres connection 'master'
+[0m16:46:17.863489 [debug] [ThreadPool]: Acquiring new postgres connection 'list_dbt-test-4444'
+[0m16:46:17.971170 [debug] [ThreadPool]: Using postgres connection "list_dbt-test-4444"
+[0m16:46:17.971822 [debug] [ThreadPool]: On list_dbt-test-4444: /* {"app": "dbt", "dbt_version": "1.11.6", "profile_name": "neon_test", "target_name": "dev", "connection_name": "list_dbt-test-4444"} */
+
+    select distinct nspname from pg_namespace
+  
+[0m16:46:17.972345 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m16:46:18.508186 [debug] [ThreadPool]: SQL status: SELECT 4 in 0.536 seconds
+[0m16:46:18.510867 [debug] [ThreadPool]: On list_dbt-test-4444: Close
+[0m16:46:18.513193 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_dbt-test-4444, now list_dbt-test-4444_public)
+[0m16:46:18.521563 [debug] [ThreadPool]: Using postgres connection "list_dbt-test-4444_public"
+[0m16:46:18.522229 [debug] [ThreadPool]: On list_dbt-test-4444_public: /* {"app": "dbt", "dbt_version": "1.11.6", "profile_name": "neon_test", "target_name": "dev", "connection_name": "list_dbt-test-4444_public"} */
+select
+      'dbt-test-4444' as database,
+      tablename as name,
+      schemaname as schema,
+      'table' as type
+    from pg_tables
+    where schemaname ilike 'public'
+    union all
+    select
+      'dbt-test-4444' as database,
+      viewname as name,
+      schemaname as schema,
+      'view' as type
+    from pg_views
+    where schemaname ilike 'public'
+    union all
+    select
+      'dbt-test-4444' as database,
+      matviewname as name,
+      schemaname as schema,
+      'materialized_view' as type
+    from pg_matviews
+    where schemaname ilike 'public'
+  
+[0m16:46:18.522804 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m16:46:18.922563 [debug] [ThreadPool]: SQL status: SELECT 4 in 0.400 seconds
+[0m16:46:18.925040 [debug] [ThreadPool]: On list_dbt-test-4444_public: ROLLBACK
+[0m16:46:18.969989 [debug] [ThreadPool]: On list_dbt-test-4444_public: Close
+[0m16:46:18.978974 [debug] [MainThread]: Using postgres connection "master"
+[0m16:46:18.979724 [debug] [MainThread]: On master: /* {"app": "dbt", "dbt_version": "1.11.6", "profile_name": "neon_test", "target_name": "dev", "connection_name": "master"} */
+select distinct
+        dependent_namespace.nspname as dependent_schema,
+        dependent_class.relname as dependent_name,
+        referenced_namespace.nspname as referenced_schema,
+        referenced_class.relname as referenced_name
+
+    -- Query for views: views are entries in pg_class with an entry in pg_rewrite, but we avoid
+    -- a seq scan on pg_rewrite by leveraging the fact there is an "internal" row in pg_depend for
+    -- the view...
+    from pg_class as dependent_class
+    join pg_namespace as dependent_namespace on dependent_namespace.oid = dependent_class.relnamespace
+    join pg_depend as dependent_depend on dependent_depend.refobjid = dependent_class.oid
+        and dependent_depend.classid = 'pg_rewrite'::regclass
+        and dependent_depend.refclassid = 'pg_class'::regclass
+        and dependent_depend.deptype = 'i'
+
+    -- ... and via pg_depend (that has a row per column, hence the need for "distinct" above, and
+    -- making sure to exclude the internal row to avoid a view appearing to depend on itself)...
+    join pg_depend as joining_depend on joining_depend.objid = dependent_depend.objid
+        and joining_depend.classid = 'pg_rewrite'::regclass
+        and joining_depend.refclassid = 'pg_class'::regclass
+        and joining_depend.refobjid != dependent_depend.refobjid
+
+    -- ... we can find the tables they query from in pg_class, but excluding system tables. Note we
+    -- don't need need to exclude _dependent_ system tables, because they only query from other
+    -- system tables, and so are automatically excluded by excluding _referenced_ system tables
+    join pg_class as referenced_class on referenced_class.oid = joining_depend.refobjid
+    join pg_namespace as referenced_namespace on referenced_namespace.oid = referenced_class.relnamespace
+        and referenced_namespace.nspname != 'information_schema'
+        and referenced_namespace.nspname not like 'pg\_%'
+
+    order by
+        dependent_schema, dependent_name, referenced_schema, referenced_name;
+[0m16:46:18.980389 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m16:46:19.375263 [debug] [MainThread]: SQL status: SELECT 0 in 0.395 seconds
+[0m16:46:19.377623 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '8cb75896-aa8c-43dd-b6e1-ac5e39c38b3c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10e7cc580>]}
+[0m16:46:19.378468 [debug] [MainThread]: On master: ROLLBACK
+[0m16:46:19.425105 [debug] [MainThread]: On master: COMMIT
+[0m16:46:19.426298 [debug] [MainThread]: Using postgres connection "master"
+[0m16:46:19.427099 [debug] [MainThread]: On master: COMMIT
+[0m16:46:19.523196 [debug] [MainThread]: SQL status: COMMIT in 0.095 seconds
+[0m16:46:19.524466 [debug] [MainThread]: On master: Close
+[0m16:46:19.529090 [debug] [Thread-1 (]: Began running node model.neon_test.public_customers
+[0m16:46:19.529865 [debug] [Thread-2 (]: Began running node model.neon_test.public_order_items
+[0m16:46:19.530672 [debug] [Thread-3 (]: Began running node model.neon_test.public_orders
+[0m16:46:19.532012 [debug] [Thread-4 (]: Began running node model.neon_test.public_products
+[0m16:46:19.531448 [info ] [Thread-1 (]: 1 of 4 START sql view model public.public_customers ............................ [RUN]
+[0m16:46:19.533022 [info ] [Thread-2 (]: 2 of 4 START sql view model public.public_order_items .......................... [RUN]
+[0m16:46:19.534133 [info ] [Thread-3 (]: 3 of 4 START sql view model public.public_orders ............................... [RUN]
+[0m16:46:19.535013 [info ] [Thread-4 (]: 4 of 4 START sql view model public.public_products ............................. [RUN]
+[0m16:46:19.536033 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly list_dbt-test-4444_public, now model.neon_test.public_customers)
+[0m16:46:19.536901 [debug] [Thread-2 (]: Acquiring new postgres connection 'model.neon_test.public_order_items'
+[0m16:46:19.537699 [debug] [Thread-3 (]: Acquiring new postgres connection 'model.neon_test.public_orders'
+[0m16:46:19.538505 [debug] [Thread-4 (]: Acquiring new postgres connection 'model.neon_test.public_products'
+[0m16:46:19.539196 [debug] [Thread-1 (]: Began compiling node model.neon_test.public_customers
+[0m16:46:19.539822 [debug] [Thread-2 (]: Began compiling node model.neon_test.public_order_items
+[0m16:46:19.540440 [debug] [Thread-3 (]: Began compiling node model.neon_test.public_orders
+[0m16:46:19.541372 [debug] [Thread-4 (]: Began compiling node model.neon_test.public_products
+[0m16:46:19.552550 [debug] [Thread-1 (]: Writing injected SQL for node "model.neon_test.public_customers"
+[0m16:46:19.556621 [debug] [Thread-2 (]: Writing injected SQL for node "model.neon_test.public_order_items"
+[0m16:46:19.560914 [debug] [Thread-3 (]: Writing injected SQL for node "model.neon_test.public_orders"
+[0m16:46:19.564765 [debug] [Thread-4 (]: Writing injected SQL for node "model.neon_test.public_products"
+[0m16:46:19.566719 [debug] [Thread-3 (]: Began executing node model.neon_test.public_orders
+[0m16:46:19.567626 [debug] [Thread-2 (]: Began executing node model.neon_test.public_order_items
+[0m16:46:19.574455 [debug] [Thread-4 (]: Began executing node model.neon_test.public_products
+[0m16:46:19.593506 [debug] [Thread-1 (]: Began executing node model.neon_test.public_customers
+[0m16:46:19.711019 [debug] [Thread-3 (]: Writing runtime sql for node "model.neon_test.public_orders"
+[0m16:46:19.716788 [debug] [Thread-4 (]: Writing runtime sql for node "model.neon_test.public_products"
+[0m16:46:19.717749 [debug] [Thread-2 (]: Writing runtime sql for node "model.neon_test.public_order_items"
+[0m16:46:19.723602 [debug] [Thread-1 (]: Writing runtime sql for node "model.neon_test.public_customers"
+[0m16:46:19.725891 [debug] [Thread-3 (]: Using postgres connection "model.neon_test.public_orders"
+[0m16:46:19.726719 [debug] [Thread-3 (]: On model.neon_test.public_orders: /* {"app": "dbt", "dbt_version": "1.11.6", "profile_name": "neon_test", "target_name": "dev", "node_id": "model.neon_test.public_orders"} */
+
+  create view "dbt-test-4444"."public"."public_orders__dbt_tmp"
+    
+    
+  as (
+    with orders as (
+	select
+		order_id,
+		customer_id,
+		amount
+	from "dbt-test-4444"."public"."orders"
+)
+
+select * from orders
+  );
+[0m16:46:19.727557 [debug] [Thread-2 (]: Using postgres connection "model.neon_test.public_order_items"
+[0m16:46:19.728216 [debug] [Thread-1 (]: Using postgres connection "model.neon_test.public_customers"
+[0m16:46:19.728840 [debug] [Thread-3 (]: Opening a new connection, currently in state init
+[0m16:46:19.729601 [debug] [Thread-2 (]: On model.neon_test.public_order_items: /* {"app": "dbt", "dbt_version": "1.11.6", "profile_name": "neon_test", "target_name": "dev", "node_id": "model.neon_test.public_order_items"} */
+
+  create view "dbt-test-4444"."public"."public_order_items__dbt_tmp"
+    
+    
+  as (
+    with order_items as (
+	select
+		order_id,
+		product_id,
+		quantity
+	from "dbt-test-4444"."public"."order_items"
+)
+
+select * from order_items
+  );
+[0m16:46:19.730259 [debug] [Thread-4 (]: Using postgres connection "model.neon_test.public_products"
+[0m16:46:19.730918 [debug] [Thread-1 (]: On model.neon_test.public_customers: /* {"app": "dbt", "dbt_version": "1.11.6", "profile_name": "neon_test", "target_name": "dev", "node_id": "model.neon_test.public_customers"} */
+
+  create view "dbt-test-4444"."public"."public_customers__dbt_tmp"
+    
+    
+  as (
+    with customers as (
+	select
+		id,
+		name,
+		city
+	from "dbt-test-4444"."public"."customers"
+)
+
+select * from customers
+  );
+[0m16:46:19.731965 [debug] [Thread-2 (]: Opening a new connection, currently in state init
+[0m16:46:19.732743 [debug] [Thread-4 (]: On model.neon_test.public_products: /* {"app": "dbt", "dbt_version": "1.11.6", "profile_name": "neon_test", "target_name": "dev", "node_id": "model.neon_test.public_products"} */
+
+  create view "dbt-test-4444"."public"."public_products__dbt_tmp"
+    
+    
+  as (
+    with products as (
+	select
+		product_id,
+		name,
+		price
+	from "dbt-test-4444"."public"."products"
+)
+
+select * from products
+  );
+[0m16:46:19.733589 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m16:46:19.734563 [debug] [Thread-4 (]: Opening a new connection, currently in state init
+[0m16:46:20.131067 [debug] [Thread-3 (]: SQL status: CREATE VIEW in 0.402 seconds
+[0m16:46:20.141220 [debug] [Thread-3 (]: Using postgres connection "model.neon_test.public_orders"
+[0m16:46:20.141986 [debug] [Thread-3 (]: On model.neon_test.public_orders: /* {"app": "dbt", "dbt_version": "1.11.6", "profile_name": "neon_test", "target_name": "dev", "node_id": "model.neon_test.public_orders"} */
+alter table "dbt-test-4444"."public"."public_orders__dbt_tmp" rename to "public_orders"
+[0m16:46:20.149805 [debug] [Thread-1 (]: SQL status: CREATE VIEW in 0.416 seconds
+[0m16:46:20.155372 [debug] [Thread-1 (]: Using postgres connection "model.neon_test.public_customers"
+[0m16:46:20.156070 [debug] [Thread-2 (]: SQL status: CREATE VIEW in 0.424 seconds
+[0m16:46:20.156766 [debug] [Thread-1 (]: On model.neon_test.public_customers: /* {"app": "dbt", "dbt_version": "1.11.6", "profile_name": "neon_test", "target_name": "dev", "node_id": "model.neon_test.public_customers"} */
+alter table "dbt-test-4444"."public"."public_customers__dbt_tmp" rename to "public_customers"
+[0m16:46:20.162663 [debug] [Thread-2 (]: Using postgres connection "model.neon_test.public_order_items"
+[0m16:46:20.163542 [debug] [Thread-2 (]: On model.neon_test.public_order_items: /* {"app": "dbt", "dbt_version": "1.11.6", "profile_name": "neon_test", "target_name": "dev", "node_id": "model.neon_test.public_order_items"} */
+alter table "dbt-test-4444"."public"."public_order_items__dbt_tmp" rename to "public_order_items"
+[0m16:46:20.167605 [debug] [Thread-4 (]: SQL status: CREATE VIEW in 0.433 seconds
+[0m16:46:20.172002 [debug] [Thread-4 (]: Using postgres connection "model.neon_test.public_products"
+[0m16:46:20.172659 [debug] [Thread-4 (]: On model.neon_test.public_products: /* {"app": "dbt", "dbt_version": "1.11.6", "profile_name": "neon_test", "target_name": "dev", "node_id": "model.neon_test.public_products"} */
+alter table "dbt-test-4444"."public"."public_products__dbt_tmp" rename to "public_products"
+[0m16:46:20.187705 [debug] [Thread-3 (]: SQL status: ALTER TABLE in 0.045 seconds
+[0m16:46:20.207784 [debug] [Thread-3 (]: On model.neon_test.public_orders: COMMIT
+[0m16:46:20.208833 [debug] [Thread-1 (]: SQL status: ALTER TABLE in 0.045 seconds
+[0m16:46:20.209585 [debug] [Thread-3 (]: Using postgres connection "model.neon_test.public_orders"
+[0m16:46:20.211722 [debug] [Thread-1 (]: On model.neon_test.public_customers: COMMIT
+[0m16:46:20.212355 [debug] [Thread-3 (]: On model.neon_test.public_orders: COMMIT
+[0m16:46:20.212925 [debug] [Thread-2 (]: SQL status: ALTER TABLE in 0.049 seconds
+[0m16:46:20.213648 [debug] [Thread-1 (]: Using postgres connection "model.neon_test.public_customers"
+[0m16:46:20.216317 [debug] [Thread-2 (]: On model.neon_test.public_order_items: COMMIT
+[0m16:46:20.217022 [debug] [Thread-1 (]: On model.neon_test.public_customers: COMMIT
+[0m16:46:20.217795 [debug] [Thread-2 (]: Using postgres connection "model.neon_test.public_order_items"
+[0m16:46:20.218594 [debug] [Thread-2 (]: On model.neon_test.public_order_items: COMMIT
+[0m16:46:20.220005 [debug] [Thread-4 (]: SQL status: ALTER TABLE in 0.047 seconds
+[0m16:46:20.222300 [debug] [Thread-4 (]: On model.neon_test.public_products: COMMIT
+[0m16:46:20.222961 [debug] [Thread-4 (]: Using postgres connection "model.neon_test.public_products"
+[0m16:46:20.223581 [debug] [Thread-4 (]: On model.neon_test.public_products: COMMIT
+[0m16:46:20.261492 [debug] [Thread-3 (]: SQL status: COMMIT in 0.047 seconds
+[0m16:46:20.270302 [debug] [Thread-3 (]: Applying DROP to: "dbt-test-4444"."public"."public_orders__dbt_backup"
+[0m16:46:20.270966 [debug] [Thread-1 (]: SQL status: COMMIT in 0.052 seconds
+[0m16:46:20.271593 [debug] [Thread-2 (]: SQL status: COMMIT in 0.052 seconds
+[0m16:46:20.272218 [debug] [Thread-4 (]: SQL status: COMMIT in 0.048 seconds
+[0m16:46:20.278548 [debug] [Thread-3 (]: Using postgres connection "model.neon_test.public_orders"
+[0m16:46:20.282277 [debug] [Thread-1 (]: Applying DROP to: "dbt-test-4444"."public"."public_customers__dbt_backup"
+[0m16:46:20.286649 [debug] [Thread-2 (]: Applying DROP to: "dbt-test-4444"."public"."public_order_items__dbt_backup"
+[0m16:46:20.290566 [debug] [Thread-4 (]: Applying DROP to: "dbt-test-4444"."public"."public_products__dbt_backup"
+[0m16:46:20.291538 [debug] [Thread-3 (]: On model.neon_test.public_orders: /* {"app": "dbt", "dbt_version": "1.11.6", "profile_name": "neon_test", "target_name": "dev", "node_id": "model.neon_test.public_orders"} */
+drop view if exists "dbt-test-4444"."public"."public_orders__dbt_backup" cascade
+[0m16:46:20.292945 [debug] [Thread-1 (]: Using postgres connection "model.neon_test.public_customers"
+[0m16:46:20.294227 [debug] [Thread-2 (]: Using postgres connection "model.neon_test.public_order_items"
+[0m16:46:20.295496 [debug] [Thread-4 (]: Using postgres connection "model.neon_test.public_products"
+[0m16:46:20.296293 [debug] [Thread-1 (]: On model.neon_test.public_customers: /* {"app": "dbt", "dbt_version": "1.11.6", "profile_name": "neon_test", "target_name": "dev", "node_id": "model.neon_test.public_customers"} */
+drop view if exists "dbt-test-4444"."public"."public_customers__dbt_backup" cascade
+[0m16:46:20.296929 [debug] [Thread-2 (]: On model.neon_test.public_order_items: /* {"app": "dbt", "dbt_version": "1.11.6", "profile_name": "neon_test", "target_name": "dev", "node_id": "model.neon_test.public_order_items"} */
+drop view if exists "dbt-test-4444"."public"."public_order_items__dbt_backup" cascade
+[0m16:46:20.297560 [debug] [Thread-4 (]: On model.neon_test.public_products: /* {"app": "dbt", "dbt_version": "1.11.6", "profile_name": "neon_test", "target_name": "dev", "node_id": "model.neon_test.public_products"} */
+drop view if exists "dbt-test-4444"."public"."public_products__dbt_backup" cascade
+[0m16:46:20.342485 [debug] [Thread-3 (]: SQL status: DROP VIEW in 0.046 seconds
+[0m16:46:20.343791 [debug] [Thread-1 (]: SQL status: DROP VIEW in 0.045 seconds
+[0m16:46:20.347988 [debug] [Thread-3 (]: On model.neon_test.public_orders: Close
+[0m16:46:20.348696 [debug] [Thread-4 (]: SQL status: DROP VIEW in 0.050 seconds
+[0m16:46:20.350654 [debug] [Thread-1 (]: On model.neon_test.public_customers: Close
+[0m16:46:20.351231 [debug] [Thread-2 (]: SQL status: DROP VIEW in 0.053 seconds
+[0m16:46:20.353003 [debug] [Thread-4 (]: On model.neon_test.public_products: Close
+[0m16:46:20.355257 [debug] [Thread-2 (]: On model.neon_test.public_order_items: Close
+[0m16:46:20.357839 [debug] [Thread-3 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '8cb75896-aa8c-43dd-b6e1-ac5e39c38b3c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1123e5f90>]}
+[0m16:46:20.358361 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '8cb75896-aa8c-43dd-b6e1-ac5e39c38b3c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1123e6110>]}
+[0m16:46:20.358796 [debug] [Thread-4 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '8cb75896-aa8c-43dd-b6e1-ac5e39c38b3c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1123e6890>]}
+[0m16:46:20.359526 [info ] [Thread-3 (]: 3 of 4 OK created sql view model public.public_orders .......................... [[32mCREATE VIEW[0m in 0.82s]
+[0m16:46:20.359961 [debug] [Thread-2 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '8cb75896-aa8c-43dd-b6e1-ac5e39c38b3c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11176d840>]}
+[0m16:46:20.360645 [info ] [Thread-1 (]: 1 of 4 OK created sql view model public.public_customers ....................... [[32mCREATE VIEW[0m in 0.82s]
+[0m16:46:20.361404 [info ] [Thread-4 (]: 4 of 4 OK created sql view model public.public_products ........................ [[32mCREATE VIEW[0m in 0.82s]
+[0m16:46:20.362147 [debug] [Thread-3 (]: Finished running node model.neon_test.public_orders
+[0m16:46:20.362831 [info ] [Thread-2 (]: 2 of 4 OK created sql view model public.public_order_items ..................... [[32mCREATE VIEW[0m in 0.82s]
+[0m16:46:20.363609 [debug] [Thread-1 (]: Finished running node model.neon_test.public_customers
+[0m16:46:20.364268 [debug] [Thread-4 (]: Finished running node model.neon_test.public_products
+[0m16:46:20.365133 [debug] [Thread-2 (]: Finished running node model.neon_test.public_order_items
+[0m16:46:20.366797 [debug] [MainThread]: On master: COMMIT
+[0m16:46:20.367359 [debug] [MainThread]: Using postgres connection "master"
+[0m16:46:20.367815 [debug] [MainThread]: On master: COMMIT
+[0m16:46:20.368268 [debug] [MainThread]: Opening a new connection, currently in state closed
+[0m16:46:20.752607 [debug] [MainThread]: SQL status: COMMIT in 0.384 seconds
+[0m16:46:20.753457 [debug] [MainThread]: On master: Close
+[0m16:46:20.754541 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m16:46:20.755168 [debug] [MainThread]: Connection 'model.neon_test.public_customers' was properly closed.
+[0m16:46:20.755693 [debug] [MainThread]: Connection 'model.neon_test.public_order_items' was properly closed.
+[0m16:46:20.756218 [debug] [MainThread]: Connection 'model.neon_test.public_orders' was properly closed.
+[0m16:46:20.756713 [debug] [MainThread]: Connection 'model.neon_test.public_products' was properly closed.
+[0m16:46:20.757343 [info ] [MainThread]: 
+[0m16:46:20.758083 [info ] [MainThread]: Finished running 4 view models in 0 hours 0 minutes and 2.90 seconds (2.90s).
+[0m16:46:20.760038 [debug] [MainThread]: Command end result
+[0m16:46:20.795069 [debug] [MainThread]: Wrote artifact WritableManifest to /Users/nuri/rosetta-dbt-studio-projects/neon_test/target/manifest.json
+[0m16:46:20.797508 [debug] [MainThread]: Wrote artifact SemanticManifest to /Users/nuri/rosetta-dbt-studio-projects/neon_test/target/semantic_manifest.json
+[0m16:46:20.809107 [debug] [MainThread]: Wrote artifact RunExecutionResult to /Users/nuri/rosetta-dbt-studio-projects/neon_test/target/run_results.json
+[0m16:46:20.809717 [info ] [MainThread]: 
+[0m16:46:20.810350 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m16:46:20.810906 [info ] [MainThread]: 
+[0m16:46:20.811491 [info ] [MainThread]: Done. PASS=4 WARN=0 ERROR=0 SKIP=0 NO-OP=0 TOTAL=4
+[0m16:46:20.813753 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": true, "command_wall_clock_time": 6.0141687, "process_in_blocks": "0", "process_kernel_time": 0.689415, "process_mem_max_rss": "132468736", "process_out_blocks": "0", "process_user_time": 4.491032}
+[0m16:46:20.814508 [debug] [MainThread]: Command `dbt run` succeeded at 16:46:20.814360 after 6.01 seconds
+[0m16:46:20.815318 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x110067850>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1101b4e50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11229a080>]}
+[0m16:46:20.815991 [debug] [MainThread]: Flushing usage events
+[0m16:46:21.732794 [debug] [MainThread]: An error was encountered while trying to flush usage events

@@ -1,0 +1,155 @@
+---
+safeMode: false
+tables:
+- name: "customers"
+  type: "TABLE"
+  schema: "public"
+  columns:
+  - name: "id"
+    typeName: "int4"
+    ordinalPosition: 0
+    primaryKeySequenceId: 0
+    columnDisplaySize: 10
+    scale: 0
+    precision: 10
+    columnProperties: []
+    autoincrement: false
+    primaryKey: false
+    nullable: true
+  - name: "name"
+    typeName: "text"
+    ordinalPosition: 0
+    primaryKeySequenceId: 0
+    columnDisplaySize: 2147483647
+    scale: 0
+    precision: 2147483647
+    columnProperties: []
+    autoincrement: false
+    primaryKey: false
+    nullable: true
+  - name: "city"
+    typeName: "text"
+    ordinalPosition: 0
+    primaryKeySequenceId: 0
+    columnDisplaySize: 2147483647
+    scale: 0
+    precision: 2147483647
+    columnProperties: []
+    autoincrement: false
+    primaryKey: false
+    nullable: true
+- name: "order_items"
+  type: "TABLE"
+  schema: "public"
+  columns:
+  - name: "order_id"
+    typeName: "int4"
+    ordinalPosition: 0
+    primaryKeySequenceId: 0
+    columnDisplaySize: 10
+    scale: 0
+    precision: 10
+    columnProperties: []
+    autoincrement: false
+    primaryKey: false
+    nullable: true
+  - name: "product_id"
+    typeName: "int4"
+    ordinalPosition: 0
+    primaryKeySequenceId: 0
+    columnDisplaySize: 10
+    scale: 0
+    precision: 10
+    columnProperties: []
+    autoincrement: false
+    primaryKey: false
+    nullable: true
+  - name: "quantity"
+    typeName: "int4"
+    ordinalPosition: 0
+    primaryKeySequenceId: 0
+    columnDisplaySize: 10
+    scale: 0
+    precision: 10
+    columnProperties: []
+    autoincrement: false
+    primaryKey: false
+    nullable: true
+- name: "orders"
+  type: "TABLE"
+  schema: "public"
+  columns:
+  - name: "order_id"
+    typeName: "int4"
+    ordinalPosition: 0
+    primaryKeySequenceId: 0
+    columnDisplaySize: 10
+    scale: 0
+    precision: 10
+    columnProperties: []
+    autoincrement: false
+    primaryKey: false
+    nullable: true
+  - name: "customer_id"
+    typeName: "int4"
+    ordinalPosition: 0
+    primaryKeySequenceId: 0
+    columnDisplaySize: 10
+    scale: 0
+    precision: 10
+    columnProperties: []
+    autoincrement: false
+    primaryKey: false
+    nullable: true
+  - name: "amount"
+    typeName: "numeric"
+    ordinalPosition: 0
+    primaryKeySequenceId: 0
+    columnDisplaySize: 131089
+    scale: 0
+    precision: 131089
+    columnProperties: []
+    autoincrement: false
+    primaryKey: false
+    nullable: true
+- name: "products"
+  type: "TABLE"
+  schema: "public"
+  columns:
+  - name: "product_id"
+    typeName: "int4"
+    ordinalPosition: 0
+    primaryKeySequenceId: 0
+    columnDisplaySize: 10
+    scale: 0
+    precision: 10
+    columnProperties: []
+    autoincrement: false
+    primaryKey: false
+    nullable: true
+  - name: "name"
+    typeName: "text"
+    ordinalPosition: 0
+    primaryKeySequenceId: 0
+    columnDisplaySize: 2147483647
+    scale: 0
+    precision: 2147483647
+    columnProperties: []
+    autoincrement: false
+    primaryKey: false
+    nullable: true
+  - name: "price"
+    typeName: "numeric"
+    ordinalPosition: 0
+    primaryKeySequenceId: 0
+    columnDisplaySize: 131089
+    scale: 0
+    precision: 131089
+    columnProperties: []
+    autoincrement: false
+    primaryKey: false
+    nullable: true
+views: []
+databaseProductName: "PostgreSQL"
+databaseType: "postgres"
+operationLevel: "schema"

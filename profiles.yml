@@ -1,0 +1,13 @@
+neon_test:
+  target: dev
+  outputs:
+    dev:
+      type: postgres
+      host: '{{ env_var("db-host-neon-test4444") }}'
+      port: '{{ env_var("db-port-neon-test4444") | int }}'
+      user: '{{ env_var("db-user-neon-test4444") }}'
+      password: '{{ env_var("db-password-neon-test4444") }}'
+      dbname: '{{ env_var("db-dbname-neon-test4444") }}'
+      schema: '{{ env_var("db-schema-neon-test4444") }}'
+      threads: 4
+      sslmode: require
