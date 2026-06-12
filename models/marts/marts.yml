@@ -6,5 +6,9 @@ models:
     columns:
       - name: name
         description: "The name of the product"
+        data_tests:
+          - not_null
       - name: total_orders
         description: "The total number of orders containing this product"
+        data_tests:
+          - not_null

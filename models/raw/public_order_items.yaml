@@ -7,8 +7,17 @@ sources:
   - name: order_items
     columns:
     - name: order_id
-      data_tests: []
+      data_tests:
+        - not_null
+        - relationships:
+            to: source('public', 'orders')
+            field: order_id
     - name: product_id
-      data_tests: []
+      data_tests:
+        - not_null
+        - relationships:
+            to: source('public', 'products')
+            field: product_id
     - name: quantity
-      data_tests: []
+      data_tests:
+        - not_null

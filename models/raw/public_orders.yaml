@@ -7,8 +7,14 @@ sources:
   - name: orders
     columns:
     - name: order_id
-      data_tests: []
+      data_tests:
+        - unique
+        - not_null
     - name: customer_id
-      data_tests: []
+      data_tests:
+        - not_null
+        - relationships:
+            to: source('public', 'customers')
+            field: id
     - name: amount
       data_tests: []
